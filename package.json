@@ -1,0 +1,15 @@
+{
+  "name": "atom-teatimer",
+  "main": "./lib/atom-teatimer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["atom-teatimer:toggle"],
+  "repository": "https://github.com/atom/atom-teatimer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

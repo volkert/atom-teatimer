@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Set Teatimer': 'atom-teatimer:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Teatimer'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'atom-teatimer:toggle' }
+      ]
+    ]
+  }
+]
